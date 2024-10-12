@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe997675d9921eb47867ea4b767ef7b0, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  decorationConfigs: []
+  obstacleConfigs:
+  - hashKey: RotatingCube
+    position: {x: 0.4134302, y: 0.0000019073486, z: 24.92407}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  - hashKey: SphereObstacle
+    position: {x: -3.4163008, y: 0.0000019073486, z: 39.33}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 2, z: 2}
+  - hashKey: SphereObstacle
+    position: {x: 2.55, y: 0.0000019073486, z: 52.48}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 2, z: 2}
+  - hashKey: SphereObstacle
+    position: {x: -3.09, y: 0.0000019073486, z: 65.91}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 2, z: 2}
+  - hashKey: CubeObstacle
+    position: {x: 2.02, y: 0, z: 74.9}
+    eulerAngles: {x: -0, y: 44.999996, z: -0}
+    scale: {x: 3, y: 1.5, z: 1.5}
+  - hashKey: CubeObstacle
+    position: {x: -1.52, y: 0, z: 88.42}
+    eulerAngles: {x: -0, y: 44.999996, z: -0}
+    scale: {x: 3, y: 1.5, z: 1.5}
+  - hashKey: SphereObstacle
+    position: {x: 3.7034996, y: 0, z: 93.06512}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  - hashKey: CubeObstacle
+    position: {x: 4, y: 0, z: 111.03961}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 0.7, y: 1, z: 1}
+  - hashKey: CubeObstacle
+    position: {x: 0, y: 0, z: 111.03961}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 0.7, y: 1, z: 1}
+  - hashKey: CubeObstacle
+    position: {x: -4, y: 0, z: 111.03961}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 0.7, y: 1, z: 1}
+  platformConfigs:
+  - hashKey: BluePlatform
+    position: {x: 0, y: 0, z: -5}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 1, z: 6}
+  - hashKey: BluePlatform
+    position: {x: 0, y: 0, z: 30}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 1, z: 5}
+  - hashKey: BluePlatform
+    position: {x: 0, y: 0, z: 60}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 1, z: 5}
+  - hashKey: BluePlatform
+    position: {x: 0, y: 0, z: 90}
+    eulerAngles: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 1, z: 5}
